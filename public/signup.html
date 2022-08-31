@@ -704,29 +704,23 @@
                                         console.log("no @ in email address");
                                     } else {
                                         //replace with Identify call
-                                        console.log("@ in email address, Heap Identify Call made");
+                                        console.log("@ in email address, Identify Call made");
                                         if (emailAddress != ''){
-                                          heap.identify(emailAddress);
+                                          //test.identify(emailAddress);
                                           if (customerName != ''){
-                                            heap.addUserProperties({ "Account - Customer Name": customerName });
+                                            //test.addUserProperties({ "Account - Customer Name": customerName });
                                           }
                                           // if (emailAddress != ''){
-                                          //   heap.addUserProperties({ "Account- Email Address": emailAddress });
+                                          //   test.addUserProperties({ "Account- Email Address": emailAddress });
                                           // }
                                           if (emailAddress != ''){
-                                            heap.addUserProperties({ "Account - Last Login": currentDateAndTime });
+                                            //test.addUserProperties({ "Account - Last Login": currentDateAndTime });
                                           }
                                           if (emailAddress != ''){
-                                            heap.addUserProperties({ "Account - Subscription Date": currentDateAndTime });
+                                            //test.addUserProperties({ "Account - Subscription Date": currentDateAndTime });
                                           }
-                                          // if (streetAddress != ''){
-                                          //   heap.addUserProperties({ "Account - Street Address": streetAddress });
-                                          // }
-                                          // if (zipCode != ''){
-                                          //   heap.addUserProperties({ "Account - Zip Code": zipCode });
-                                          // }
                                           if (planSelected != ''){
-                                            heap.addUserProperties({ "Account - Subscribed Plan": planSelected });
+                                            //test.addUserProperties({ "Account - Subscribed Plan": planSelected });
                                           }
                                         }
                                         window.location.href = "/";

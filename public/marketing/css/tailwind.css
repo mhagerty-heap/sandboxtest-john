@@ -1133,7 +1133,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-primary{
   --tw-bg-opacity: 1;
   /* background-color: rgb(48 86 211 / var(--tw-bg-opacity)); */
-  /* Changed background to Heap Purple */
+  /* Changed background to Purple */
   /* background-color: rgb(92 14 140 / var(--tw-bg-opacity)); */
   background-color: rgb(55 15 81 / var(--tw-bg-opacity));
 
@@ -1236,7 +1236,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: #179BEE;
 } */
 
-/* For image in middle of page, changed to a more purple Heap color */
+/* For image in middle of page, changed to a more purple color */
 .to-\[\#179BEE\]{
   --tw-gradient-to: #c39bde;
 }
